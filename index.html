@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/font/fontawesome-free-5.15.4-web/css/all.min.css">
+    <title>Nhà Hàng</title>
+</head>
+<body>
+    <div class="wrapper">
+        <!-- HEADER -->
+        <header class="header">
+            <div class="header__container">
+                <div class="header__logo">
+                    <a href="#" class="header__logo-link">
+                        <img src="./assets/img/logo1.svg" alt="" class="header__logo-img">
+                    </a>
+                </div>
+                <button class="menu-bar">
+                    <span> </span>
+                </button>
+                <nav class="header__nav">
+                    <ul class="header__nav-list">
+                        <li class="header__nav-item">
+                            <a href="#home" class="header__nav-link">Home</a>
+                        </li>
+                        <li class="header__nav-item">
+                            <a href="#home" class="header__nav-link">About</a>
+                        </li>
+                        <li class="header__nav-item">
+                            <a href="#home" class="header__nav-link">Menu</a>
+                        </li>
+                        <li class="header__nav-item">
+                            <a href="#home" class="header__nav-link">Testimonial</a>
+                        </li>
+                        <li class="header__nav-item">
+                            <a href="#home" class="header__nav-link">Team</a>
+                        </li>
+                        <li class="header__nav-item">
+                            <a href="#home" class="header__nav-link">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+
+        </header>
+
+        <!-- SLIDER -->
+        <section class="slider">
+            <div class="slider-bg"></div>
+            <div class="slider__introduce">
+                <h1 class="slider__introduce-heading">Nhà hàng Thai Market</h1>
+                <p class="slider__introduce-des">Đẳng cấp lên ngôi, vị ngọt đôi môi, niềm vui ngóng chờ giây phút mộng mơ</p>
+                <a href="#menu" class="slider__introduce-btn">MENU</a>
+            </div>
+        </section>
+
+        <!-- ABOUT -->
+        <section class="about">
+            <div class="grid wide">
+                <div class="about__story" data-title="Our story">ABOUT US</div>
+                <div class="row">
+                    <div class=" col l-6" >
+                        <div class="about__text">
+                            <h3 class="about__heading">Chào mừng các bạn đến với Thai Market</h3>
+                            <p class="about__subhead">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum a elit sit amet turpis suscipit pharetra. Nullam ut dictum arcu. Cras non ex nibh. Nulla at neque ipsum. Curabitur convallis luctus lacinia.
+                            </p>
+                            <p class="about__subhead"> 
+                                Nunc rhoncus eros id velit porttitor elementum sed sed nisi. Fusce mollis, turpis ac tempor mollis, odio mauris tempor lectus, eu auctor ante arcu ut diam. Vestibulum sagittis vestibulum mattis. Fusce at ipsum a eros consectetur gravida ac vitae est. Praesent maximus imperdiet arcu non finibus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam mollis aliquam feugiat. Duis rutrum lacus et luctus volutpat.
+                            </p>
+                            <a href="#menu" class="about__btn">XEM MENU</a>
+                        </div>
+                    </div>
+                    <div class="col l-6">
+                        <div class="about__box">
+                            <h2>10 + Year Experence</h2>
+                            <img src="./assets/img/about.jpg" alt="" class="about__img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- MENU -->
+        <section id="menu" class="menu">
+            <div class="grid wide">
+                    <div class="menu__story" data-title="order now">OUR MENU</div>
+                <div class="row">
+                    <div class="menu__tap">
+                        <button class="menu__tap-btn active" data-target="#lunch">Lunch</button>
+                        <button class="menu__tap-btn" data-target="#diner">Dinner</button>
+                        <button class="menu__tap-btn" data-target="#drink">Drink</button>
+                        <button class="menu__tap-btn" data-target="#desserts">Desserts</button>
+                    </div>
+                </div>
+                <div class="row ">      
+                    <div class="menu__tap-content active" id="lunch">
+                        <div class="col l-6">
+                            <div class="menu__content">
+                                <div class="menu__content-tiltle">
+                                    <img src="./assets/img/menu1.jpg" alt="" class="menu__content-img">
+                                    <div class="menu__content-name">Món trưa</div>
+                                </div>
+                                <div class="menu__content-price">150000 VND</div>
+                            </div>
+                        </div>
+                        <div class="col l-6">
+                            <div class="menu__content">
+                                <div class="menu__content-tiltle">
+                                    <img src="./assets/img/menu2.jpg" alt="" class="menu__content-img">
+                                    <div class="menu__content-name">Món trưa</div>
+                                </div>
+                                <div class="menu__content-price">150000 VND</div>
+                            </div>
+                        </div>
+                        <div class="col l-6">
+                            <div class="menu__content">
+                                <div class="menu__content-tiltle">
+                                    <img src="./assets/img/menu3.jpg" alt="" class="menu__content-img">
+                                    <div class="menu__content-name">Món trưa</div>
+                                </div>
+                                <div class="menu__content-price">150000 VND</div>
+                            </div>
+                        </div>
+                        <div class="col l-6">
+                            <div class="menu__content">
+                                <div class="menu__content-tiltle">
+                                    <img src="./assets/img/menu4.jpg" alt="" class="menu__content-img">
+                                    <div class="menu__content-name">Món trưa</div>
+                                </div>
+                                <div class="menu__content-price">150000 VND</div>
+                            </div>
+                        </div>
+                        <div class="col l-6">
+                            <div class="menu__content">
+                                <div class="menu__content-tiltle">
+                                    <img src="./assets/img/menu5.jpg" alt="" class="menu__content-img">
+                                    <div class="menu__content-name">Món trưa</div>
+                                </div>
+                                <div class="menu__content-price">150000 VND</div>
+                            </div>
+                        </div>
+                        <div class="col l-6">
+                            <div class="menu__content">
+                                <div class="menu__content-tiltle">
+                                    <img src="./assets/img/menu6.jpg" alt="" class="menu__content-img">
+                                    <div class="menu__content-name">Món trưa</div>
+                                </div>
+                                <div class="menu__content-price">150000 VND</div>
+                            </div>
+                        </div>
+                        <div class="col l-6">
+                            <div class="menu__content">
+                                <div class="menu__content-tiltle">
+                                    <img src="./assets/img/menu7.jpg" alt="" class="menu__content-img">
+                                    <div class="menu__content-name">Món trưa</div>
+                                </div>
+                                <div class="menu__content-price">150000 VND</div>
+                            </div>
+                        </div>
+                        <div class="col l-6">
+                            <div class="menu__content">
+                                <div class="menu__content-tiltle">
+                                    <img src="./assets/img/menu8.jpg" alt="" class="menu__content-img">
+                                    <div class="menu__content-name">Món trưa</div>
+                                </div>
+                                <div class="menu__content-price">150000 VND</div>
+                            </div>
+                        </div>                
+                    </div>             
+                    <div class=" menu__tap-content " id="diner">                   
+                        <div class="col l-6">
+                            <div class="menu__content">
+                                <div class="menu__content-tiltle">
+                                    <img src="./assets/img/menu9.jpg" alt="" class="menu__content-img">
+                                    <div class="menu__content-name">Món trưa</div>
+                                </div>
+                                <div class="menu__content-price">150000 VND</div>
+                            </div>
+                        </div>
+                        <div class="col l-6">
+                            <div class="menu__content">
+                                <div class="menu__content-tiltle">
+                                    <img src="./assets/img/menu10.jpg" alt="" class="menu__content-img">
+                                    <div class="menu__content-name">Món trưa</div>
+                                </div>
+                                <div class="menu__content-price">150000 VND</div>
+                            </div>
+                        </div>
+                        <div class="col l-6">
+                            <div class="menu__content">
+                                <div class="menu__content-tiltle">
+                                    <img src="./assets/img/menu11.jpg" alt="" class="menu__content-img">
+                                    <div class="menu__content-name">Món trưa</div>
+                                </div>
+                                <div class="menu__content-price">150000 VND</div>
+                            </div>
+                        </div>
+                        <div class="col l-6">
+                            <div class="menu__content">
+                                <div class="menu__content-tiltle">
+                                    <img src="./assets/img/menu12.jpg" alt="" class="menu__content-img">
+                                    <div class="menu__content-name">Món trưa</div>
+                                </div>
+                                <div class="menu__content-price">150000 VND</div>
+                            </div>
+                        </div>
+                        <div class="col l-6">
+                            <div class="menu__content">
+                                <div class="menu__content-tiltle">
+                                    <img src="./assets/img/menu13.jpg" alt="" class="menu__content-img">
+                                    <div class="menu__content-name">Món trưa</div>
+                                </div>
+                                <div class="menu__content-price">150000 VND</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" menu__tap-content " id="drink">                   
+                        <div class="col l-6">
+                            <div class="menu__content">
+                                <div class="menu__content-tiltle">
+                                    <img src="./assets/img/menu14.jpg" alt="" class="menu__content-img">
+                                    <div class="menu__content-name">Món trưa</div>
+                                </div>
+                                <div class="menu__content-price">150000 VND</div>
+                            </div>
+                        </div>
+                        <div class="col l-6">
+                            <div class="menu__content ">
+                                <div class="menu__content-tiltle">
+                                    <img src="./assets/img/food1.jpg" alt="" class="menu__content-img">
+                                    <div class="menu__content-name">Món trưa</div>
+                                </div>
+                                <div class="menu__content-price">150000 VND</div>
+                            </div>
+                        </div>
+                        <div class="col l-6">
+                            <div class="menu__content">
+                                <div class="menu__content-tiltle">
+                                    <img src="./assets/img/menu14.jpg" alt="" class="menu__content-img">
+                                    <div class="menu__content-name">Món trưa</div>
+                                </div>
+                                <div class="menu__content-price">150000 VND</div>
+                            </div>
+                        </div>
+                        <div class="col l-6">
+                            <div class="menu__content ">
+                                <div class="menu__content-tiltle">
+                                    <img src="./assets/img/food1.jpg" alt="" class="menu__content-img">
+                                    <div class="menu__content-name">Món trưa</div>
+                                </div>
+                                <div class="menu__content-price">150000 VND</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" menu__tap-content " id="desserts">                   
+                        <div class="col l-6">
+                            <div class="menu__content">
+                                <div class="menu__content-tiltle">
+                                    <img src="./assets/img/menu14.jpg" alt="" class="menu__content-img">
+                                    <div class="menu__content-name">Món trưa</div>
+                                </div>
+                                <div class="menu__content-price">150000 VND</div>
+                            </div>
+                        </div>
+                        <div class="col l-6">
+                            <div class="menu__content ">
+                                <div class="menu__content-tiltle">
+                                    <img src="./assets/img/food1.jpg" alt="" class="menu__content-img">
+                                    <div class="menu__content-name">Món trưa</div>
+                                </div>
+                                <div class="menu__content-price">150000 VND</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FEEDBACK -->
+        <section class="feedback">
+            <div class="grid wide">
+                <div class="feedback__story" data-title="testimony">SOME FEEDBACK</div>
+                <div class="row">
+                    <div class="col l-4">
+                        <div class="fb__item" data-aos="flip-left"data-aos-duration="3000">
+                            <div class="fb__author">
+                                <div class="fb__author-name">
+                                    <h3>Hà Tuấn Linh</h3>
+                                    <p>Food Specialist</p>
+                                </div>
+                                <div class="fb__author-img">
+                                    <img src="./assets/img/Test1.jpg" alt="" class="fb__author-img-avt">
+                                </div>
+                            </div>
+                            <p class="fb__comment">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum a elit sit amet turpis suscipit pharetra. Nullam ut dictum arcu. Cras non ex nibh. Nulla at neque ipsum. Curabitur convallis luctus lacinia.
+                            </p>
+                            <div class="fb__rate">
+                                <i class="fas fa-star fb__rate-icon"></i>
+                                <i class="fas fa-star fb__rate-icon"></i>
+                                <i class="fas fa-star fb__rate-icon"></i>
+                                <i class="fas fa-star fb__rate-icon"></i>
+                                <i class="fas fa-star fb__rate-icon"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l-4">
+                        <div class="fb__item" data-aos="fade-up"data-aos-duration="3000">
+                            <div class="fb__author">
+                                <div class="fb__author-name">
+                                    <h3>Hà Tuấn Linh</h3>
+                                    <p>Food Specialist</p>
+                                </div>
+                                <div class="fb__author-img">
+                                    <img src="./assets/img/Test2.jpg" alt="" class="fb__author-img-avt">
+                                </div>
+                            </div>
+                            <p class="fb__comment">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum a elit sit amet turpis suscipit pharetra. Nullam ut dictum arcu. Cras non ex nibh. Nulla at neque ipsum. Curabitur convallis luctus lacinia.
+                            </p>
+                            <div class="fb__rate">
+                                <i class="fas fa-star fb__rate-icon"></i>
+                                <i class="fas fa-star fb__rate-icon"></i>
+                                <i class="fas fa-star fb__rate-icon"></i>
+                                <i class="fas fa-star fb__rate-icon"></i>
+                                <i class="fas fa-star fb__rate-icon"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l-4">
+                        <div class="fb__item" data-aos="flip-right"data-aos-duration="3000">
+                            <div class="fb__author">
+                                <div class="fb__author-name">
+                                    <h3>Hà Tuấn Linh</h3>
+                                    <p>Food Specialist</p>
+                                </div>
+                                <div class="fb__author-img">
+                                    <img src="./assets/img/Test3.jpg" alt="" class="fb__author-img-avt">
+                                </div>
+                            </div>
+                            <p class="fb__comment">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum a elit sit amet turpis suscipit pharetra. Nullam ut dictum arcu. Cras non ex nibh. Nulla at neque ipsum. Curabitur convallis luctus lacinia.
+                            </p>
+                            <div class="fb__rate">
+                                <i class="fas fa-star fb__rate-icon"></i>
+                                <i class="fas fa-star fb__rate-icon"></i>
+                                <i class="fas fa-star fb__rate-icon"></i>
+                                <i class="fas fa-star fb__rate-icon"></i>
+                                <i class="fas fa-star fb__rate-icon"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- CHEFT -->
+        <section class="cheft">
+            <div class="grid wide">
+                <div class="cheft__story" data-title="testimony">OUR CHEFTS</div>
+                <div class="row">
+                    <div class="col l-4">
+                        <div class="cheft__item">
+                            <img src="./assets/img/team1.jpg" alt="" class="cheft__item-img">
+                            <div class="cheft__item-in4">
+                                <h3 class="cheft__item-name">Ha Tuan Linh</h3>
+                                <p class="cheft__item-job">Bếp Trưởng</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l-4">
+                        <div class="cheft__item">
+                            <img src="./assets/img/team2.jpg" alt="" class="cheft__item-img">
+                            <div class="cheft__item-in4">
+                                <h3 class="cheft__item-name">Ha Tuan Linh</h3>
+                                <p class="cheft__item-job">Bếp Trưởng</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l-4">
+                        <div class="cheft__item">
+                            <img src="./assets/img/team3.jpg" alt="" class="cheft__item-img">
+                            <div class="cheft__item-in4">
+                                <h3 class="cheft__item-name">Ha Tuan Linh</h3>
+                                <p class="cheft__item-job">Bếp Trưởng</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="grid wide">
+            <div class="row">
+                <div class="col l-4">
+                    <div class="footer__item">
+                        <h3 class="footer__item-header">Địa chỉ</h3>
+                        <p class="footer__item-des">72, Hàm Nghi <br> Thạc Gián, Đà Nẵng</p>
+                    </div>
+                </div>
+                <div class="col l-4">
+                    <div class="footer__item">
+                        <h3 class="footer__item-header">Giờ mở cửa</h3>
+                        <p class="footer__item-des">09:30-23:00 <br> Các ngày trong tuần</p>
+                    </div>
+                </div>
+                <div class="col l-4">
+                    <div class="footer__item">
+                        <h3 class="footer__item-header">Giờ mở cửa</h3>
+                        <p class="footer__item-des">09:30-23:00 <br> Các ngày trong tuần</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__copyright">
+                ©2021. Toàn bộ bản quyền thuộc thai market
+            </div>
+        </div>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+</html>
